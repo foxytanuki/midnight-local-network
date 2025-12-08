@@ -1,5 +1,7 @@
 ### Self-contained local Midnight node + wallet funding helper
 
+▶️ **[Watch the Video Explainer & Demo](https://youtu.be/1L4xR8LIe6I)**  
+
 `midnight-local-network` lets developers run their **own local Midnight network** using Docker—fully isolated, predictable, and independent from public testnets or faucets.
 
 This setup is especially valuable for dApp developers who want to build and test against a fully local Midnight network instead of relying on public testnets, which may be unstable or temporarily unavailable.
