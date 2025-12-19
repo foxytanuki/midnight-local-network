@@ -11,7 +11,7 @@ services:
       RUST_BACKTRACE: "full"
   indexer:
     container_name: 'indexer'
-    image: 'midnightntwrk/indexer-standalone:2.1.2'
+    image: 'midnightntwrk/indexer-standalone:2.1.4'
     ports:
       - '8088:8088'
     environment:
@@ -24,7 +24,7 @@ services:
       node:
         condition: service_started
   node:
-    image: 'midnightnetwork/midnight-node:0.12.0'
+    image: 'midnightntwrk/midnight-node:0.18.0'
     container_name: 'node'
     ports:
       - "9944:9944"
