@@ -11,7 +11,7 @@ services:
       RUST_BACKTRACE: "full"
   indexer:
     container_name: 'indexer'
-    image: 'midnightntwrk/indexer-standalone:2.1.4'
+    image: 'midnightntwrk/indexer-standalone:3.0.0-alpha.20'
     ports:
       - '8088:8088'
     environment:
